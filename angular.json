@@ -248,6 +248,34 @@
           }
         }
       }
+    },
+    "shared-auth": {
+      "root": "libs/shared/auth",
+      "sourceRoot": "libs/shared/auth/src",
+      "projectType": "library",
+      "prefix": "ecom-workspace",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/shared/auth/src/test.ts",
+            "tsConfig": "libs/shared/auth/tsconfig.spec.json",
+            "karmaConfig": "libs/shared/auth/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shared/auth/tsconfig.lib.json",
+              "libs/shared/auth/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

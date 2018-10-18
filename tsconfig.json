@@ -16,6 +16,9 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@ecom-workspace/shared/auth": [
+        "libs/shared/auth/src/index.ts"
+      ]
     }
   },
   "exclude": [

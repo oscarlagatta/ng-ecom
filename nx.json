@@ -19,6 +19,9 @@
     },
     "admin-portal-e2e": {
       "tags": []
+    },
+    "shared-auth": {
+      "tags": []
     }
   }
 }
