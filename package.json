@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "serve:customer-portal":"ng s customer-portal --port 4201",
+    "serve:admin-portal":"ng s admin-portal --port 4202",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
