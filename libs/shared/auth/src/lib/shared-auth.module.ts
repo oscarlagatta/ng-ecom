@@ -12,7 +12,7 @@ import { LoginComponent } from './containers/login/login.component';
     CommonModule,
 
     RouterModule.forChild([
-      /* {path: '', pathMatch: 'full', component: InsertYourComponentHere} */
+       { path: '', component: LoginComponent },
     ]),
 
     StoreModule.forFeature(AUTH_FEATURE_KEY, authReducer, { initialState: authInitialState }),
