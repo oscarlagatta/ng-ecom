@@ -3,29 +3,32 @@ import { Effect, Actions } from '@ngrx/effects';
 import { DataPersistence } from '@nrwl/nx';
 
 import { AuthPartialState } from './auth.reducer';
-import {
-  LoadAuth,
-  AuthLoaded,
-  AuthLoadError,
-  AuthActionTypes
-} from './auth.actions';
+import * as fromAuthActions from './auth.actions';
+import { AuthService } from '../services/auth/auth.service';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class AuthEffects {
   @Effect()
-  loadAuth$ = this.dataPersistence.fetch(AuthActionTypes.LoadAuth, {
-    run: (action: LoadAuth, state: AuthPartialState) => {
+  loadAuth$ = this.dataPersistence.fetch(fromAuthActions.AuthActionTypes.LoginAction, {
+    run: (action: fromAuthActions.LoginAction, state: AuthPartialState) => {
       // Your custom REST 'load' logic goes here. For now just return an empty list...
-      return new AuthLoaded([]);
+      //return new fromAuthActions.LoginActionSuccess([]);
+      return this.authService.login().pipe(
+        map(user => {
+            return new fromAuthActions.LoginActionSuccess(user);
+        })
+      )
     },
 
-    onError: (action: LoadAuth, error) => {
+    onError: (action: fromAuthActions.LoginAction, error) => {
       console.error('Error', error);
-      return new AuthLoadError(error);
+      return new fromAuthActions.LoginActionFail(error);
     }
   });
 
   constructor(
+    private authService: AuthService,
     private actions$: Actions,
     private dataPersistence: DataPersistence<AuthPartialState>
   ) {}

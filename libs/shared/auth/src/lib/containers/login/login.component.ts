@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthState } from '../../+state/auth.reducer';
+import { Store } from '@ngrx/store';
+import * as fromAuthActions from './../../+state/auth.actions';
 
 @Component({
   selector: 'ecom-workspace-login',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private store: Store<AuthState>) { }
 
   ngOnInit() {
   }
 
+  login(){
+      this.store.dispatch(new fromAuthActions.LoginAction());
+  }
 }

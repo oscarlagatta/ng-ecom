@@ -1,5 +1,8 @@
 import { AuthAction, AuthActionTypes } from './auth.actions';
 
+export interface Auth {
+  auth: any;
+}
 export const AUTH_FEATURE_KEY = 'auth';
 
 /**
@@ -11,7 +14,9 @@ export const AUTH_FEATURE_KEY = 'auth';
  */
 
 /* tslint:disable:no-empty-interface */
-export interface Entity {}
+export interface Entity {
+  auth: Auth
+}
 
 export interface AuthState {
   list: Entity[]; // list of Auth; analogous to a sql normalized table
@@ -34,7 +39,7 @@ export function authReducer(
   action: AuthAction
 ): AuthState {
   switch (action.type) {
-    case AuthActionTypes.AuthLoaded: {
+    case AuthActionTypes.LoginActionSuccess: {
       state = {
         ...state,
         list: action.payload,
