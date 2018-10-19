@@ -6,6 +6,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { AUTH_FEATURE_KEY, initialState as authInitialState, authReducer } from './+state/auth.reducer';
 import { AuthEffects } from './+state/auth.effects';
 import { LoginComponent } from './containers/login/login.component';
+import { AuthService } from './services/auth/auth.service';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { LoginComponent } from './containers/login/login.component';
 
     EffectsModule.forFeature([AuthEffects])
   ],
+  providers: [AuthEffects, AuthService],
   declarations: [LoginComponent]
 })
 export class SharedAuthModule {}
