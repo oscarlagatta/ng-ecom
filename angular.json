@@ -27,9 +27,17 @@
               "apps/customer-portal/src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/omega/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/quill/dist/quill.snow.css",
+              "node_modules/primeicons/primeicons.css",
               "apps/customer-portal/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/moment/moment.js",
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/quill/dist/quill.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -76,9 +84,16 @@
             "tsConfig": "apps/customer-portal/tsconfig.spec.json",
             "karmaConfig": "apps/customer-portal/karma.conf.js",
             "styles": [
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/quill/dist/quill.snow.css",
+              "node_modules/primeicons/primeicons.css",
               "apps/customer-portal/src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/moment/moment.js",
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/quill/dist/quill.js"
+            ],
             "assets": [
               "apps/customer-portal/src/favicon.ico",
               "apps/customer-portal/src/assets"
