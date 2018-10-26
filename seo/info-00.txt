@@ -1,0 +1,87 @@
+Structured data
+
+1.- How Google use Structured Data
+2.- How we benefit from implementing Structured Data
+3.- Different ways we can implement,
+4.- Schema.org
+5.- JSON-LD
+6.- Google's own guidelines for structured data
+7.- Adding markup to the page
+
+8.- Tag manager, tags, triggers variables
+9.- Inserting json-ld into a tag and setting the trigger
+Testing the tag works
+Json-ld specific exmaples
+using plugin to implement structured data
+
+Google search console, search appearance tools, finding and fixing errors and the data hightlighter
+
+
+who benefits from using structured data:
+takes time and effort to create, if organic search traffic is important to you then structure data is important. Can have an important impact with the Rich Snippets.
+Helps the listing to stand up in the search pages. Eyes are drawn to the ones with star ratings.
+If we have multiplel articles related to key terms and we want them to stand out as a carousel.
+Rich snippets can increase the CTR Cick through rate as they draw the aye away from normal listings.
+
+
+Options to add strcutured data
+we need to know what info we need to include to tell google more information about, the information we need to include comes from what's called a taxonomy.
+A taxonomy defines the specific vocabulary we need to use. The other thing we need is how we include that vocabulary and that's decided by the syntax or
+the programminmg code we use to define structured data. SO WE NEED A TAXONOMY AND WE NEED A SYNTAX.
+
+The bad news is that thre are different taxonomies we can use and also different syntaxes we can use, for taxonomies we have schema.org and microformats.org, for syntaxes we have micro data, micro formats and json LD.
+
+Schema.org (taxonomy) jsonld using the code. Schema.org is being used because the major search engines Google, Yahoo and Yandex got together in 2011 to create a standarized list of attributes and entities which they all agreed to support and became known as SCHEMA.ORG. This is the vocabulary or the taxonomy that Google wants you to use.
+
+
+JSON-LD JavaScript Object Notation for Linked Data, it's a JavaScript code we can insert into the head section of the web page. That means that jsonld is separate completely from the HTML code of the page JSONLD does not require HTML to exist.
+Essentially we duplicate a bit of information where we define the sections of the page for the search engine.
+
+As the benefit of using JSON-LD
+
+1.- is not bound to the content on the web page, it does not need to be embedded in amongst the HTML tags of the page, like other sytnaxes. We don't need to add extra HTML code as with other previous formats
+
+2.- We don't need to have access to the backend of the site to edit and implement JSONLD if we set it up using GOOGLE TAG MANAGER.
+
+IN SUMMARY
+
+1.- We decide what type of web it is (review, book, recipe )
+2.- Fint that TYPE over at Schema.org which then tell us the information we can add and need to include
+3.= Using JSON-LD we create the code that defines the strcutured data
+4.- Insert the code in our web page
+
+SCHEMA.ORG
+
+Founded by Google, Microsoft, Yahoo and Yandex, Schema.org vocabularies are developed by an open community process, using the public-schemaorg@w3.org mailing list and through GitHub.
+
+
+Schema.org is a collection of different things and types, types defines what is it that we want to markup so if we markup a web page (is it a news article it's  a product ? is a local business ? is it a person ? ). And each will have its properties.
+
+Tool:
+   Structure data markup helper. provides the main of types we can markup to create the JSON-LD.
+
+------
+JSON-LD
+
+code used to pass the meta data to the search engines, it is javascript and uses name value pairs. JSON uses some reserved names which we can easily spot because they start with @,
+@context and @type are the two we will see over and over when working with structured data.
+
+@context specify the format of the meta data, we are telling the search engines that the following JSON-LD uses the metadata structure from schema.org.
+
+@type the part of the schema we want to define. eg.an article a recipe a restaurante an offer a price a rating etc.
+
+Google guidelines
+
+https://developers.google.com/search/docs/guides/sd-policies
+guidelines to make sure the structured data is use correctly and not used for spam.
+
+
+https://schema.org/
+https://developers.google.com/search/docs/guides/sd-policies
+https://www.google.com/webmasters/markup-helper/?hl=en
+https://search.google.com/structured-data/testing-tool/
+https://technicalseo.com/seo-tools/schema-markup-generator/
+https://www.schemaapp.com/tools/jsonld-schema-generator/
+
+
+
