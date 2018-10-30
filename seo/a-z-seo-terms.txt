@@ -1,0 +1,1194 @@
+A-Z SEO Terms & Definitions
+
+
+Yes You Read It Right, This Big Post Include All Important Terms That Are Involved With Search Engine Optimization.
+At Current Point You Might Not Understand Most Of The Terms, But Read It Once Now And Return Back To This Very Particular Lecture Again After Completing Your Last Module, You Will Then Understand Almost All Points.
+
+The Motive Of This Long Post Is To Give You Reference Point And Simple Definition Of Important Terms.
+200 OK
+The 200 HTTP status code is used to indicate that the request of a webpage (http://example.com) was successfully received, understood, and accepted.
+
+301 (Moved Permanently)
+If you have a page that’s permanently changed URLs (e.g. www.example.com/old-page has changed to www.example.com/new-page), you should implement a 301 redirect and relink all previous resources to the new URL.
+
+A 301 HTTP status code indicates that the requested resource has been permanently assigned a new URI (Uniform Resource Indentifier).
+
+301 redirects pass 100% PageRank from the old page to the redirected page, though it was noted otherwise previously.
+
+403 (Forbidden)
+403 (Forbidden) HTTP Status Code
+
+
+A 403 status code forbids the user from viewing the content on the resource page and indicates why the valid request has not been fulfilled (e.g. due to not having the necessary permissions).
+
+Google will very quickly remove your content from its index when it sees a 403 status code. Many sites have lost a ton of pages in the Google index due improper use of 403s when they should have been using a more temporary status code such as a 503 (Service Unavailable), which doesn’t lead to immediate removal from the index.
+
+404 (Not Found)
+The requested resource could not be found and may have either moved or may be available in the future.
+
+Do 404s hurt your site rankings? Not directly at least. Google prefers that your “dead” pages return a proper 404 or 410 response code rather than a “soft 404 ” (an unclear signal for dead pages e.g. returning a response code other than 404 or 410).
+
+Inbound links/external references to 404 pages should also be modified to point to relevant live (200 OK status code) web pages.
+
+500 (Internal Server Error)
+A 500 status code is a generic error message given when the server encounters unexpected conditions, preventing it from fulfilling the request.
+
+503 (Service Unavailable)
+The server is currently unavailable due to a scheduled maintenance or is temporarily overloaded. When Googlebot comes across a 503 status code, they will not immediately deindex the page and will attempt to crawl it again at a later time. However if repeated attempts to crawl the page is not possible due to the 503, the page will eventually be removed from the index.
+------------------------------------------------------------------------------------
+
+A
+Above The Fold
+Having the content is above the fold of the page means the content is immediately displayed without scrolling down further on the page.
+
+Google is against having too many ads or sites that don’t have much content above the fold of the page. Meaning to say if a user has to scroll farther down to avoid the ads in order to see the content, that constitutes to a bad user experience and your rankings will decline.
+
+Accelerated Mobile Pages (AMP)
+The AMP Project is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+
+
+Algorithm Update
+Google updates their algorithms 500 – 600 times a year on average to combat spam. Once in awhile Google releases public statements when they make major changes to their algorithms. Notable algorithmic updates in the recent years include Panda, Penguin, Hummingbird, Mobilegeddon, and RankBrain.
+
+Alternate Text
+alt-tags-example
+
+The alternate text or shorthand term “ALT tag” refers to the attribute within an image tag (e.g. alt=”description”). ALT tags should be descriptive of the image to tell search engines and users the nature of the image.
+
+If the image is contextually relevant to your resource, try to include the your target keyword(s) in the ALT tags.
+
+Anchor Text
+Example of an Anchor Text
+
+The anchor text is the text within a hyperlink that is clickable. Upon hovering the cursor over and clicking on the anchor text, the user will be taken the destination URL specified in the hyperlink code.
+
+The words in the anchor text can influence the search engine rankings of the page that it links to. Therefore it is good practice to ensure that the anchor text is relevant to the destination page.
+------------------------------------------------------------------------------------
+
+B
+Backlink
+backlink-illustration
+
+A backlink is any external link from another domain that links to any page on your domain. Backlinks are a major ranking factor in Search Engine Optimization and that means having more backlinks correlate to higher rankings.
+
+Note that there are dofollow and nofollow backlinks. Dofollow links pass PageRank but nofollow links do not.
+
+Backlink Checker Tool
+Backlink checker tools help you analyze your backlink profile to see which websites linked to your website. Here are a few recommended ones:
+
+AHrefs
+
+Moz Pro
+
+Majestic
+
+SEO Spyglass
+
+Semrush
+
+
+
+Black Hat SEO
+Black hat SEO refers to the use of shady practices, automated programs, and aggressive techniques aimed at manipulating search engines to drive a site’s rankings up.
+
+Websites that go against Google’s Webmaster Guidelines risk getting dealt with a manual or algorithmic penalty.
+
+
+
+Blog Commenting
+A great way to build relationships and increase personal branding/brand awareness. Most blogs allow readers to post their comments and include a link back to their own websites.
+
+Blog Comment Spam
+A black hat SEO technique where “black hatters” aggressively post irrelevant comments that include links (usually with over optimized anchor text) back to their websites in hopes of manipulating search engine ranking signals.
+
+Blog Network
+A network of blogs, usually privately owned by an SEO agency, SEO consultant, or in-house, in effort of manipulating search engine rankings through off-page SEO techniques such as pointing exact match anchor text links to a target domain.
+
+In recent years, Google has clamped down on many blog networks, most notably MyBlogGuest, in efforts to deter low quality sites that use deceptive tactics to game the search engine results pages (SERPs).
+
+Bot
+Also known as search engine spiders, robots, crawlers. These automated software agents crawl content on the web for the purpose of understanding and indexing the content in order to pull the most relevant results to a searcher’s query.
+
+Bounce Rate
+The bounce rate is the percentage of visitors landing on a single page of a website and leaving without viewing any other pages of the same website. There are certain default conditions set by web analytics tools such as Google Analytics and several modifiable conditions that constitute to a bounce such as page inactivity for 30 minutes or more.
+
+High bounce rates, especially when the traffic source is from Google search, also correlate with a decline in rankings.
+
+Brand Keywords
+Branded keywords are queries that include a brand’s name. For example the search term “amazon web services” is a brand search query of the company Amazon.
+
+Brand keywords take little to no effort to rank highly for, especially for a brand’s official domain. So a newly created website e.g. www.ilovepurses.com will almost always rank #1 for search terms such as “ilovepurses catalogue”.
+
+Brand Mentions
+A brand mention is any mention of a brand name in any web document. It is also a link building strategy known as Link Reclamation, where brand mention tools are used to track and alert a brand of any brand mentions across the web. Following which the PR team can perform an outreach to request the text where the mention occured to be updated with a hyperlink back to the brand’s website.
+
+Breadcrumbs
+breadcrumbs-example
+
+Breadcrumbs are used as a navigational aid for users to keep track of their location when browsing a website.
+
+Broken Link
+Any link that leads to a 404 page not found, bad gateway, or internal server error. Link equity is also lost when a hyperlink leads to a 404 page, unless the 404 page redirects to a live URL (200 OK).
+
+This is due to the fact that Google treats 404 pages as non-existent (a black hole) and any link equity that flows to the page ends there.
+
+------------------------------------------------------------------------------------
+
+C
+Canonical URL (rel=canonical)
+<link rel="canonical" href="http://example.com/canonical-url-you-want-indexed/">
+
+The rel=canonical tag is used to tell search engines that various URLs have essentially similar content. Search engines will then only index the canonical URL. This takes care of duplicate content issues which confuse search engines as to which content they should rank.
+
+The rel=canonical code is placed on the duplicated pages which you do not want search engines to index. Search engines will then follow the specified URL and index it instead.
+
+Cache
+A computing term in which data is stored into a hardware or a software (e.g. browser) so that future requests can be served faster.
+
+Page speed is one of the signals Google’s algorithms look at when ranking pages. Leveraging browser caching can enhance the loading speed of your webpages, reduce bounce rates (which may be a negative ranking signal), and allow search engines to crawl more pages on your site.
+
+Country Code Top-Level Domain (ccTLD)
+Two-letter internet top level domains designated for specific countries.
+
+www.example.com.sg
+www.example.ca
+
+The letters marked in red are ccTLDs.
+
+Having a ccTLD signals to search engines and users the geographic location in which a site originates. Google uses this signal to rank a local site higher in local search results. This means that with everything else equal, example.com.sg will rank higher than example.comin google.com.sg search results pages.
+
+Click-Through-Rate (CTR)
+The ratio of clicks to views from advertisement, email, video, or page links. So if an ad creative had a 1% CTR, it had 100 views and 1 click.
+
+Cloaking
+A deceptive search engine optimisation technique in which content is presented to search engine spiders is different than that returned to a user’s browser.
+
+Cloaking is a violation of Google’s Webmaster Guidelines.
+
+Co-Citation
+A co-citation is a similarity measurement technique used to determine whether a subject is similar to another subject and based on whether a third party source referenced both subjects in a single document.
+
+In simple terms, if webpage A and B are cited by webpage C, A and B may be said to be related to each other, even though they don’t directly link to one another.
+
+It is speculated that search engines may be able to assume similarities between page A and B based on the number of co-citations from different third party sources, and rank pages based on those signals.
+
+Code Swapping
+A form of black hat SEO where a page is optimised for ranking, and then swapping another page’s content in its place once it has achieved top rankings.
+
+Content
+The currency of online marketing and SEO. Quality content is essential for influence and maintaining SEO rankings.
+
+Content Delivery Network (CDN)
+A network of servers that speedily deliver web content to users based on their geographic locations. As page speed is a ranking factor, delivering web content at high speed is a good enough reason to get a CDN.
+
+Content Uniqueness
+The uniqueness level of a piece of content. We all know that duplicate content usually doesn’t bode well when it comes to rankings. So what’s the magical percentage?
+
+Unfortunately there isn’t a set percentage for determining the content uniqueness level. Rather, it is the unique value that a content provides that influences its rankings, even if it has duplicated parts in it.
+
+Conversion
+A conversion is an important action that takes place in a customer’s buying journey. It could range from anything from a contact form enquiry, view of a key page, average time spent on a page, to a sale.
+
+Conversion Rate
+The ratio of the number of total visits to the number of conversions in terms of percentage.
+
+Crawl
+A term used when search engine spiders discover and process information of web documents.
+
+
+
+Cross-Linking
+Reciprocally linking between two different websites or two separate webpages within the same website. This signals to search engines that the linked content are somewhat related to one another.
+------------------------------------------------------------------------------------
+
+D
+De-Indexed
+Refers to the process of a website vanishing from Google’s search results pages.
+
+One of the ways to check whether your website has been de-indexed, is to use the search operator site:www.yourwebsite.com and enter it into Google search. If you don’t see any results, unless your website is relatively new (a few weeks old), it is likely you have been de-indexed.
+
+example-site-search-operater
+
+
+Directory
+A collection of data and links to websites, webpages, and web documents, organised into respective categories and subcategories. There are free and paid directories, with free directories offering free submission of website listing and paid directories charging for inclusion for a one-time or recurring fee.
+
+Directory links have been receiving flak from Google’s web spam team since the past few years.
+
+
+Disavow
+A method of dealing with spammy backlinks that were not intentionally acquired by a webmaster.
+
+Google launched the disavow tool in October 2012 to provide an avenue for SEOs to vouch against low quality links that violate Google’s Webmaster Guidelines and prevent a manual penalty.
+
+Google however strongly advises this tool to be used as a last resort, and that SEOs should do their best to take down low quality links manually or through outreach.
+
+Dofollow
+A dofollow link is a hyperlink without the rel=”nofollow” attribute. See nofollow links. A dofollow link passes PageRank and other ranking signals (link juice) to the link destination.
+
+Doorway Page
+A form of cloaking or spamdexing. Doorway pages or websites are created with the objective of ranking highly for specific queries, which may lead a user to multiple similar destinations instead of one useful final destination.
+
+Examples of doorway pages include:
+
+Having multiple domain names or pages targeted at specific regions or cities that funnel users to one page.
+
+Pages generated to funnel visitors into the actual usable or relevant portion of your site(s).
+
+Substantially similar pages that are closer to search results than a clearly defined, browsable hierarchy.
+
+Domain Authority
+An SEO metric created by SaaS company Moz. Domain authority or DA can be used to predict the ranking ability of a website using a scale of 0 – 100, with 0 being the lowest and 100 being the highest.
+
+Domain Name
+A domain name e.g. www.example.com represents an Internet Protocol (IP) address e.g. 192.168.1.1 and is mapped to a computer server so that it can be accessed from anywhere in the world on the World Wide Web.
+
+There are different top-level domains such as .com, info, net, org, edu (gTLDs) and country code top-level domains such as .sg, my, ca, us, au (ccTLDs).
+
+Duplicate Content
+Duplicate content is showing similar content on multiple locations (webpages/URLs). This causes problems when search engines don’t know which version to show to users and can result in 1. dropping all versions of the content from the search results pages and 2. ranking the wrong version.
+
+There are many examples and different variations of duplicate content listed in this article.
+
+Dwell Time (Time Spent On Page)
+In layman terms, dwell time is measured starting from when a user clicks on a search result, spends time on the page, and ends when the user goes back to the search results pages.
+
+Why does this metric matter to search engines? Since search engines aim to to serve useful content to their users, a longer dwell time signifies that a content must have been useful enough for a user to spend time digesting it.
+
+
+
+Dynamic Content
+Dynamic content, the opposite of static content, serves content that changes based on the user (e.g. browsing behaviour).
+
+Dynamic Serving
+Serving different content to different users based on their device type. This is implemented to provide a mobile-friendly experience to mobile users as well as a desktop experience to desktop users, and optimise content for mobile searches.
+
+Another popular method for mobile SEO is responsive design.
+
+Dynamic URL
+Dynamic URLs may change based on the session id which typically looks something like this http://example.com/page?id=21 or includes any of these characters: ? = &. Contrast to static URLs which look like this http://example.com/page.
+
+If you have dynamic parameters, Google recommends that you do not rewrite them into static URLs as this may result in Googlebot crawling the same piece of content needlessly via many different URLs with varying values for session IDs.
+
+------------------------------------------------------------------------------------
+
+E
+E-A-T (Expertise, Authority, Trust)
+Indicators which Google uses to assess page quality. Found and mentioned repeatedly in Google’s Search Quality Rating Guidelines.
+
+Editorial Link
+editorial-link-illustration
+
+A hyperlink embedded within a page’s main content e.g. a blogpost.
+
+Exact Match Domain (EMD)
+Back in the early days of SEO, exact match domain names (EMDs) ranked very well even without any on-page or off-page optimisation.
+
+An exact match domain refers to a keyword targeted domain. For example if you wanted to rank for the keyword phrase “how to create a server”, you would buy www.howtocreateaserver.com and you would rank on top of Google.
+
+The new EMD algo update in 2012 served to reduce low quality “exact match” domains in search results as quoted by Matt Cutts.
+
+
+
+External Link
+An external link is any hyperlink that points to a destination URL other than its own domain. If your website (e.g. www.yourwebsite.com) links to another website (e.g. www.anotherwebsite.com), the link is known as an external link.
+
+Similarly if another website links to your website, it is also considered an external link.
+
+There are some ongoing debates on whether linking externally to another website will help or hurt your SEO.
+------------------------------------------------------------------------------------
+
+G
+Google AdWords Keyword Tool
+Google Keyword Planner was previously referred to as Google AdWords Keyword Tool.
+
+Google Alerts
+Google Alerts is a free tool provided by Google which allows you set up email alerts to monitor the web for interesting content and mentions of your brand, your competitors, and any particular entity.
+
+Googlebot
+Google’s web crawling robot, also known as a “search engine spider”. See crawling.
+
+
+
+Google Keyword Planner
+A keyword research tool provided by Google. You need a Google AdWords account in order to use this tool.
+
+Google My Business
+A free Google business listing service that will enable a business to be found on Google Search and Google Maps.
+
+Google Sitelinks
+Links shown below some of Google’s search results to help users navigate directly to various sections of a website. At this point in time, sitelinks are automatically analysed and selected by Google’s algorithms, therefore a webmaster won’t be able to control them directly.
+
+Sitelinks example
+
+Google Slap
+Google slap has two references. One for their paid search results and the other for their organic search results.
+
+Receiving a Google Slap on the paid search results means you haven’t been adhering to the Google AdWords guidelines and best practices, resulting in a significant drop in the Quality Score of your target keywords, or an account ban.
+
+For the organic search results, getting a Google Slap means you haven’t been abiding by Google’s Webmaster Quality Guidelines (e.g. building spammy backlinks and keyword stuffing), resulting in a significant drop in keyword rankings or complete removal of your website in Google’s index.
+
+Google Suggest
+Suggested search terms that show as you type in your search queries on Google.
+
+Google Suggest Example
+
+
+
+Guest Blogging / Guest Posting
+A marketing method whereby a blogger contributes an article to another blog. This achieves several things:
+
+Establishes authority on a subject matter
+
+Increase traffic
+
+Enhances reputation and brand exposure
+
+Build links for off-page SEO
+
+Strengthens relationship with other bloggers
+
+However over optimising anchor text and guest blogging purely for links is frowned upon by Google.
+------------------------------------------------------------------------------------
+
+I
+Image Filename
+The text before the extension of an image file e.g. (image001.jpg). It is recommended for the image filename to include your target keywords for SEO purposes, provided it is contextually relevant.
+
+Impression
+The number of times a search result is seen regardless of whether it is clicked or not.
+
+Inbound Link
+A hyperlink from another website to your website. An inbound link may be “followed” or “nofollowed”. See rel=”nofollow”.
+
+Index
+A search engine’s index is similar in concept to a library’s index of books, whereby information is sorted and organised by predefined parameters so that it is easily retrievable when a search is conducted.
+
+Additionally, indexing refers to the process of adding webpages to a search engine’s index.
+
+Indexability
+A page’s indexability refers to how easily or likely that a page can be included into a search engine’s index. It is dependent on a variety of factors such as the coding language used and how unique and authoritative the content is. Pages built with Flash and Javascript risk not getting indexed because search engines may not understand the contents of the page.
+
+Infographic
+An abbreviation of the phrase “information graphic”. An infographic is a graphical representation of information, data, or knowledge and is designed to be visually appealing.
+
+It is also a popular link building technique.
+
+Internal Linking
+A method of hyperlinking different pages within a site to one another in efforts to signal to search engines the relevancy between the linked pages.
+
+International SEO
+The process of optimising a website to improve its search engine rankings in multiple countries. A few methods include:
+
+the use of rel hreflang tags
+
+the use of ccTLDs
+
+geo-targeting your website through Google Webmaster Tools
+
+Interstitials
+Interstitials are ads that appear in a form of a popup, lightbox, or a separate browser window when you are browsing or waiting for a page to load.
+
+Google announced on 10 January 2017 that they will start cracking down on “intrusive interstitials” on the mobile experience.
+
+Inverse Document Frequency (IDF)
+A numerical statistic that evaluates how important a word in a document is, based on a range of factors such as the weight of the term (or term frequency) in the document.
+------------------------------------------------------------------------------------
+
+K
+Keyword
+Keywords, in SEO context, are words and/or phrases used in webpages to help search engines connect users searching for relevant search terms to your website.
+
+Keyword Cannibalisation
+A bad occurrence whereby multiple pages target the same keyword (e.g. duplicate page titles), causing confusion to search engines and negatively affecting search engine rankings.
+
+Keyword Categorisation
+The process of grouping multiple keywords that are related to a specific topic into a section of a website or a single webpage. This enables you to develop more targeted content to rank for a group of related keywords.
+
+Further reading:
+
+
+
+Keyword Density
+The percentage of a keyword or phrase to the total number of words mentioned in a web document. There isn’t a set rule on the ideal keyword density percentage required to achieve good rankings. However keyword density does shape what search engines think about the overall topic of your content and this can influence your rankings.
+
+
+
+Keyword Difficulty / Keyword Competition
+Keyword difficulty or keyword competition is a measurement of how much effort would be required for a webpage to rank for a particular keyword.
+
+They are a variety of keyword difficulty tools to automatically calculate keyword competition:
+
+Ahrefs
+
+Semrush
+
+Moz
+
+Keyword Optimisation
+The process of including target keywords in specific locations of a web document (for example the title tag, meta description, and URL) to increase search engine rankings.
+
+Keyword Rankings
+The position of a webpage on the organic search engine results pages (SERPs).
+
+Keyword Research / Keyword Analysis
+The process of discovering what keywords your prospects are using and understanding their intent to better optimise your pages for both users and search engines.
+
+Keyword Research Tool
+An online or offline instrument that enables you to retrieve keyword data and insights.
+
+Suggested keyword research tools:
+
+Google Keyword Planner
+
+Ahrefs Keyword Explorer
+
+Keywordtool.io
+
+Keyword Stuffing / Keyword Spam
+A black hat SEO technique whereby the same keyword is repeatedly mentioned in a web document with little regard for a meaningful user experience.
+
+Knowledge Graph
+An enhancement to Google’s search engine which delivers new information quickly and easily by deeply understanding the meaning of the search query.
+
+------------------------------------------------------------------------------------
+
+L
+Landing Page
+In the context of search engine optimisation, a landing page is any page that a user lands on after clicking on a search result.
+
+Latent Semantic Indexing (LSI)
+Latent semantic indexing or LSI is a formula used by search engines to determine whether a page’s content is semantically relevant to a keyword by looking for synonyms of the keyword or words that are related to the subject.
+
+For example home, real estate, property, stamp duty, and property tax, are all LSI keywords.
+
+Link
+Any hyperlink (clickable text, button, or image) that takes users to another section (internally or externally) of a website or webpage.
+
+Link Age
+The total time a link exists in a search engine’s index. It also presumed by many SEOs that link age is used as a ranking signal.
+
+Link Acquisition
+The process of acquiring a backlink to increase search engine rankings.
+
+Link Bait
+A piece of content (infographic, case study, research paper, blogpost, image) designed with the purpose of attracting content creators to hyperlink to it.
+
+Link Building
+The process of acquiring backlinks through outreach, submission, and PR.
+
+
+Link Burst
+A significantly rapid increase in the quantity of backlinks pointing to a website, especially new websites.
+
+This may alert the Google manual web spam team to look into the matter, since links typically build up slowly over time.
+
+
+Link Buying
+The act of buying or selling links that pass PageRank. I.e. putting a rel=”nofollow” tag to the hyperlink on a sponsored link is fine.
+
+Buying or selling links goes against Google’s Quality Guidelines – Link Schemes. This extends to non-monetary transactional deals such as exchanging free gifts for links.
+
+Link Condom
+Links that block PageRank from flowing to the destination URL. This is done by placing the rel=”nofollow” tag e.g. <a href=”http://example.com” rel=”nofollow”>click here</a>.
+
+Link Diversity
+Link diversity refers to the assortment of the kinds of links in a website’s link profile. These attributes can be classified into:
+
+Diversity of anchor text
+
+Follow vs. nofollow
+
+Location of the link on the page (e.g. footer, header, sidebar, editorial links)
+
+Type of website (e.g. forum, blogpost, resource list, .gov, .edu links)
+
+
+
+Link Juice / Link Authority / Link Equity / Link Love / Link Popularity
+Link authority refers to the amount of value a link passes to the destination page. This includes:
+
+Dofollow links
+
+Links from topic-related pages pass topical relevancy signals
+
+Redirects (301, 302, 307, meta refresh)
+
+Links from pages with high PageRank
+
+Link Exchange
+Also known as reciprocal linking. Reciprocal linking is perfectly “legal” if it is naturally acquired. For example if website A links to website B from the footer with the anchor text “visit our sister company”, it is considered natural.
+
+However sending unsolicited emails to a ton of different websites saying you will link to them if they link to you is a form of a link scheme, according to Google Webmaster Quality Guidelines.
+
+Link Farm
+A network of websites that link to one another although the content is often unrelated and of low quality. The idea is that this reciprocal linking pattern will improve search engine rankings. However the opposite is true as search engines have developed algorithms to detect this pattern of unnatural linking.
+
+
+
+Link Relevancy
+A measurement of how relevant a link is to the destination URL. Some clues search engine algorithms look for include:
+
+Are the target keywords found in the anchor text?
+
+What is the URL of the page where the backlink was found?
+
+Is the topic of the page where the backlink was found relevant to the link destination?
+
+
+Link Spam
+Any form of link building which goes against Google’s Webmaster Quality Guidelines – Link Schemes. Some examples of link spam include:
+
+Creating low quality links through Private Blog Networks
+
+Posting irrelevant links on forum threads
+
+Buying cheap links on low quality websites
+
+Throughout the history of SEO, Google has been constantly cracking down on link spam (spammy link building activities).
+
+Some of Google’s most notable link spam algorithms:
+
+Penguin
+
+Payday Loan
+
+
+Local Citation
+Where your company’s Name, Address, Phone number (NAP) is mentioned on other websites such as directory listings.
+
+This helps to rank your Google My Business listing page better on the local search results.
+
+local-search-results-example
+
+
+Local SEO
+The method of optimising a local business to rank on the local search results. This includes building local citations, earning Google My Business reviews, and building the website’s Page Authority.
+
+
+
+Long Tail Keywords
+Keywords phrases that are longer and more specific to the searcher’s intent. The reverse would be short tail keywords which are more generic in nature.
+
+Examples of short tail keywords in the real estate niche include:
+
+buy property
+
+real estate
+
+purchase house
+
+Examples of long tail keywords in the real estate niche include:
+
+how to buy a private property in singapore
+
+northvale condo floorplan and pricing
+
+what to look out for when purchasing a home
+
+------------------------------------------------------------------------------------
+
+M
+Main Content (MC)
+All content on a webpage can be classified as either Main Content (MC) or Supplementary Content (SC).
+
+The MC is any part of the webpage that directly helps the page to achieve its main purpose. For example, the MC of a currency converter tool page would be the currency converter tool itself. It should be displayed above the fold and in a prominent location of the page.
+
+
+
+Main Navigation Menu
+Contains links to internal pages of a website, usually located in the header section.
+
+main-navigation-menu
+
+
+
+Manual Penalty
+A manual action whereby a human engineer from Google or Bing has manually reviewed a site flagged for spammy activities relating to Search Engine Optimisation and purposefully prevents the site from ranking highly.
+
+
+
+Meta Description
+A HTML attribute that is used to provide search engines with a summarised description on the contents of your webpage. It is commonly used by search engines to display as the preview snippet of the search engine results pages.
+
+<head>
+<meta name=”description” content=”Meta description that will show up in the search engine results preview snippets.”>
+</head>
+
+Note: Meta description isn’t a ranking factor, however it may increase the click-through-rate of your search results, resulting in increased website traffic.
+
+Meta Keywords
+A HTML attribute that lists the keywords that are found on the webpage. It is no longer used as a ranking factor by major search engines. In fact, spamming this meta tag can have adverse effects on your rankings.
+
+<head>
+<meta name=”keywords” content=”keyword 1, keyword 2, keyword 3″>
+</head>
+
+
+
+Meta Refresh
+A method of getting a web browser to refresh a page after a give time interval e.g. after 5 seconds. It can also be used to instruct the web browser to redirect the user to a different URL upon refreshing the page.
+
+Here’s how a meta refresh tag looks like:
+
+<meta HTTP-EQUIV=”refresh” CONTENT=”0;URL=http://www.site-you-want-to-redirect-to.com/”>
+
+Google recognises meta refresh as a page redirect and allows PageRank to flow from the current page to the redirected page. However it is more recommended to use 301 permanent redirects if you the URL of the page has permanently changed.
+
+Meta Robots
+A HTML attribute that instructs search engines to obey a set of rules such as not indexing a page and not following any links on the page.
+
+<head>
+<meta name=”robots” content=”noindex,nofollow” />
+</head>
+
+
+
+Mirror Site
+A mirror site is a replica of another existing website. It is commonly used for the following reasons:
+
+To increase speed by serving identical sites that are located closer to the user’s geographical region
+
+For SEO purposes – Setting up multiple identical sites to build an online presence, and then diverting the traffic back to the original website. (This may result in a search engine penalty)
+
+
+
+Mobile-Friendly
+Describes how accessible a webpage is to users who are browsing the page on a mobile device. For example:
+
+How fast does the page load on a mobile device?
+
+Are there interstitials and do they disrupt the user experience (e.g. pop up and cover the whole screen)?
+
+Can the code be processed by the mobile browser? (Don’t use FLASH)
+
+Are the buttons too small for the fat fingers?
+
+The best way to check whether a webpage is mobile friendly is via the Mobile-Friendly Test Tool provided for free by Google.
+
+
+
+MozRank
+MozRank represents how important a webpage is by calculating the number and quality of webpages that link to it (link popularity). It is originated from Moz.
+
+
+
+Multiple Keyword Optimisation
+The method of optimising SEO tags and contents on a webpage (images and text) for a variety of keywords.
+
+For example the title tag of a page could include more than one variation of the keyword:
+
+<title>Rent a meeting/conference room</title>
+
+Where meeting and conference are synonyms but are both included to optimise the title for multiple keywords.
+------------------------------------------------------------------------------------
+
+N
+Natural Language Processing (NLP)
+In SEO context, NLP or Natural Language Processing is the ability of a computer program to interpret human language and understand the meaning behind a query, and then be able to return relevant answers.
+
+Post rollout of Google’s Hummingbird and RankBrain algorithm update as well as the Knowledge Graph has seen significant improvements in terms of Natural Language Processing.
+
+Natural Links
+Backlinks that are acquired through non-spammy techniques such as one to one outreach, quality guest blogging, and submission of webpages to high quality web resources.
+
+Negative SEO
+A deliberate act of spamming black hat links to a competitor’s website with the aim of sabotaging its rankings through a search engine penalty.
+
+
+
+Newsjacking
+A creative link building technique whereby SEOs ride on a trending news story and contribute their own piece of the story, in efforts to drive links back their content. This usually involves a lot of participation in popular social media channels.
+
+Niche Keywords
+Groups of keywords and keyword phrases that contain keywords related to a particular niche.
+
+Nofollow
+A HTML attribute that can be added into the code behind hyperlinks to tell search engines not to pass PageRank to the destination URL.
+
+<a href=”http://www.example.com/” rel=”nofollow”>This link does not pass PageRank</a>
+
+This is generally done when webmasters don’t fully trust a source that they are linking to, thus preventing PageRank to flow to the given source.
+
+Noindex
+A HTML attribute to tell search engines not to index a particular webpage.
+
+<meta name=”robots” content=”noindex“/>
+------------------------------------------------------------------------------------
+
+O
+Off-Page SEO
+Refers to external website related activities (mainly link building and content marketing) in order to boost a website’s search engine ranking positions.
+
+Extends to Local SEO where local citation building and link building play a big part in ranking Google My Business pages on the local search results.
+
+On-Page SEO
+Refers to internal website activities such as keyword, site speed, mobile, and content optimisation in order a boost a website’s search engine ranking positions.
+
+Online Reputation Management
+Online Reputation Management refers to the practice of monitoring and attempting to positively influence the public perception of a brand or a person on the web.
+
+Some strategies include addressing negative comments directly on social media platforms (forums, Facebook, Twitter) and performing search engine optimisation on brand search terms to ensure the first page of the SERPs do not contain any negative results.
+
+Organic Search Results
+The non-paid section of a search engine results page, usually below the paid ads. Ad fees will be charged to the advertiser when a user clicks on a paid ad result. Whereas no fees are charged when a user clicks on an organic search result.
+------------------------------------------------------------------------------------
+
+P
+PageRank
+A ranking algorithm created by Google co-founders Larry Page and Sergey Brin to calculate the importance, authority, and reliability of a web page from a scale of 0 – 10, with 0 being the lowest and 10 being the highest.
+
+Page Authority
+No one explains this better than Moz, the creator of Page Authority:
+
+Page Authority is a score (on a 100-point scale) developed by Moz that predicts how well a specific page will rank on search engines. It is based off data from the Mozscape web index and includes link counts, MozRank, MozTrust, and dozens of other factors.
+
+Page Loading Time / Page Speed
+The amount of time it takes for a webpage to load.
+
+Page loading time is a Google ranking factor which may affect your rankings if it loads too slowly. Google recommends your pages load in 4 seconds or less.
+
+If your site is loading slowly, you may check for any issues with this tool: PageSpeed Insights
+
+Some common issues include:
+
+Bloated code. In which case you may want to minify your HTML/CSS files.
+
+Slow server response time. In which case you may want to upgrade your web hosting plan or switch web hosts.
+
+Synchronous Javascript code blocking resources. In which case you may want to switch to asynchronous code.
+
+Not leveraging browser caching. In which case you may want to install a browser caching plugin if you’re running on WordPress.
+
+Huge image file sizes. In which case you may want to reduce your image file sizes.
+
+Pagination
+The process of segmenting content onto multiple pages and including paginated links to those pages. Here’s an example of pagination:
+
+pagination-example
+
+Google recommends that you indicate paginated content as this will help them index your content better on their search engine results pages.
+
+
+
+Paid Links / Paid Inclusion
+Paid inclusion refers to the act of transacting in order to acquire a link back to one’s website. In other words, buying links.
+
+This goes against Google’s Quality Guidelines and may result in a manual penalty.
+
+Pogo-Sticking
+Refers to the act of clicking on a search result and clicking back to the search engine results pages because they did not find what they were initially searching for.
+
+This is often discussed to be a bad ranking signal as it is one of the factors that show a page did not serve its intended purpose.
+
+Press Release
+A publicity technique usually involving a compelling news story that is distributed to news sites.
+
+This used to be a very popular link building technique until Google indicated that optimised anchor text links in press releases fall under unnatural links that violate their guidelines.
+
+Primary Keywords
+The primary keywords are high priority keywords that are included in more prominent areas within a page such as the title tag, when optimising a webpage for rankings.
+
+Private Blog Network (PBN)
+A PBN is a network of sites usually created and maintained by an SEO or SEO agency. It is then used to manipulate the rankings of targeted websites by creating keyword-optimised anchor text links to them.
+
+Google has shut down many PBNs and are consistently issuing manual penalties that devalue any outgoing links from websites that link unnaturally to other websites.
+
+
+
+Proximity (Local search)
+An important local ranking signal used by Google to determine the local ranking position of a business based on its proximity to the searcher.
+------------------------------------------------------------------------------------
+
+Q
+Query Deserves Diversity (QDD)
+A ranking system used by Google to return diverse search results to search queries, particularly generic queries, branded search terms, and news search terms.
+
+Take this example search query “water” and see what Google returns.
+
+QDD Example
+
+
+Google returns the definition of water in the first result, some of the latest news on water, how water works, and an organisation dealing with water solutions.
+
+Query Deserves Freshness (QDF)
+A “freshness” algorithm created by Google to return fresh results for search queries revolving around a trending topic.
+
+In the 2016 U.S. elections, the term Donald Trump spiked to a peak search volume of 30 million worldwide.
+
+Donald Trump QDF Search Results
+
+
+The key to appear on the fresh results would be to publish breaking news stories as soon as possible.
+
+------------------------------------------
+
+R
+RankBrain
+RankBrain is a machine learning algorithm created by Google to help process and sort through search queries and return more useful and relevant results.
+
+Rankings
+The ranking positions of a website’s target search queries, also commonly referred to as keyword rankings.
+
+Reciprocal Linking
+Reciprocal linking refers to two or more different websites linking to one another.
+
+In general, natural reciprocal linking is fine, such as if Website A links to a content resource on Website B, and Website B links to Website A’s blogpost. However the links must not be manipulated i.e. over optimised anchor text.
+
+What isn’t acceptable is “Excessive link exchanges (“Link to me and I’ll link to you”) or partner pages exclusively for the sake of cross-linking” – as stated in Google’s Link Schemes.
+
+
+
+Redirect
+The instance of sending users and search engines to a different URL than the one initially requested.
+
+There are various types of redirects such as:
+
+301 permanent redirect
+
+302/307 temporary redirect
+
+Meta refresh
+
+
+
+Responsive
+Used to describe how flexible or fluid the contents of a webpage are when it is requested from various devices of various screen sizes such as mobile phones, smart phones, and tablets. Such as the following example:
+
+Desktop Vs Mobile Responsive Versions
+
+To be on the safe side, you may want to check whether your responsive webpages pass Google’s Mobile Friendly Test tool.
+
+
+
+Reverse Engineering
+Reverse engineering is an SEO link building technique by which you run your competitor’s domain through a backlink checker tool like Ahrefs and analyse their backlink profile.
+
+Once you’ve identified websites (who’ve linked to your competitors) that may also potentially link to you, you’ll go out there and get links from these websites or similar-themed websites.
+
+Rich Snippets
+Rich snippets or structured data markup are a type of microdata markup (using the Schema.org vocabulary) that are added to webpages, with the purpose of making the webpage result on the search engine results pages more visually outstanding, and also display information related the query.
+
+Rich snippet example
+
+Robots
+Robots, also referred to as search engine spiders, are computer robots programmed by search engine engineers to crawl webpages and process information for data storage and retrieval purposes.
+
+Robots.txt
+A text file that website owners use to provide instructions to search engine spiders about which files and directories to ignore when crawling a website. The robots.txt file is stored in the root of the domain. Here’s an example of what it looks like:
+
+User-agent: *
+
+Disallow: /members-area
+
+Where * signifies all search engine robots that are programmed to obey a robots.txt file, and Disallow: /members-area tells search engine robots not to crawl the member section of the website.
+
+This conserves the crawl budget of a website by blocking access to unimportant directories, thus allowing more important sections of the website to be crawled and processed.
+
+
+
+RSS Feed
+RSS feed stands for Really Simple Syndication or Rich Site Summary. It is an XML-format file in which web authors can update the feed list by adding new stories/blogposts and readers can access this list by subscribing to it.
+
+------------------------------------------
+
+S
+Schema.org
+Schema.org is a set of vocabulary types, properties, and enumeration values that can be used with a variety of encodings including RDFa, Microdata and JSON-LD to markup webpages, emails, and many other applications.
+
+When used on webpages, it can create rich snippets that display marked-up data on the search engine results pages.
+
+Scraped Content
+Scraped content is content that is copied and/or slightly modified from other sources and published on your own site.
+
+In general, this is a negative term used to describe stolen content and goes against Google’s Quality Guidelines – Scraped Content.
+
+Search Console
+Previously known as Google Webmaster Tools, Google Search Console is a free web service help website owners monitor their site health and maintain their search presence on Google.
+
+Webmasters can submit their websites to Google Search Console and verify their ownership. Once verified, webmasters can perform a range of actions including:
+
+Submitting a sitemap
+
+Fetching Googlebot to specified URLs
+
+Checking for crawl errors
+
+International targeting
+
+Check for malware
+
+And more
+
+Search Engine Penalty
+A form of punishment dealt by search engines to websites that implement spammy web activities in effort to manipulate their search engine rankings.
+
+This may come in one of two forms – An algorithmic penalty (punishment dealt by search engine algorithms) or a manual penalty (a manual action dealt by a human search engineer).
+
+Search Operators
+A set of vocabulary that can be added to search queries in order to filter the search results.
+
+Here’s an example of a search operator that searches only for keywords found in a page title:
+
+intitle:”write for us”
+
+Search operator title example
+
+
+Another example of a search operator that filters results found only on a particular website:
+site:www.example.com
+
+
+Search Volume
+The specific number of searches performed for a particular keyword or keyword phrase. Search volumes for specific keywords can be research through keyword research tools such as:
+
+Keywordtool.io
+
+Google Keyword Planner
+
+Ahrefs Keyword Explorer
+
+Secondary Keywords
+Keywords that are of a lesser priority than primary keywords that need to be optimised on a website or webpage. Keywords of a higher priority go in the <title> tags, meta description, and other important locations on a webpage.
+
+Keywords may be prioritised according to:
+
+Search volume
+
+Conversion rate
+
+User intent
+
+Semantic Search
+Semantic search is a scientific method of seeking to accurately understand the intention and context of a search query in effort to return highly relevant search results to the searcher.
+
+SEO Audit
+An on-page and off-page review or assessment of a website to identify any issues that may cause a website to be “unfriendly” to search engines, such as blocking search engines from crawling and indexing an important web resource.
+
+An SEO audit may be performed manually or via a tool such as Semrush. An on-page SEO audit may involve checking a range of items including:
+
+The presence of a sitemap
+
+Target keywords included on key landing pages
+
+Page loading time
+
+An off-page SEO audit may involve checking for:
+
+Spammy backlinks (negative SEO)
+
+Keyword-optimised backlinks
+
+
+
+SEO Copywriting
+SEO copywriting is writing copy that is keyword-optimised for search engine ranking purposes. It is generally frowned upon these days, as SEO copywriters have gotten a bad rep for writing copy intended for search engines rather than for humans.
+
+Here’s an example of an extreme case of bad SEO copywriting:
+
+As Google shifts toward semantic search and delivering ultra useful results to searchers, good SEO copy is no longer a priority, rather providing a great user (and useful) experience should be the primary focus while placing keyword optimisation second.
+
+Site Architecture
+The site plan of a website’s navigational structure.
+
+It is recommended to separate main category (broad) content from sub category (specific) content. For example, “Digital Printing” is a broad category keyword and “Flyer Printing” is a more specific category, therefore they should be separated pages.
+
+Sitemap
+A sitemap can be in HTML or XML format. HTML sitemaps are included on the front end of the website for users to gain a birds-eye-view and easily navigate through a site. Whereas XML sitemaps are created to submit to search engines for better site crawling and indexation.
+
+You may submit your sitemap to:
+
+Google Webmaster Tools
+
+Bing Webmaster Tools
+
+Sitewide Links
+Sitewide links are hyperlinks that are found on the same location of multiple pages of a website. E.g. a sidebar or footer link.
+
+Google’s algorithms consolidates sitewide links and may count them as one.
+
+Sneaky Redirects
+A redirect is the action of sending a user to a different URL other than the one they requested. A sneaky redirect on the other hand is intended to deceive search engines by displaying different content to search engines and cloaking. This is also known as cloaking and can result in a manual action by search engines.
+
+Social Bookmarking
+Social bookmarking involves the act of bookmarking, annotating, and sharing web documents through online bookmarking platforms such as Delicious, Scoop.it, and Digg.
+
+Social bookmarking can be a way to drive traffic and links (usually nofollowed) to your website, although links may come indirectly (as a result of increasing the visibility of your content to bloggers).
+
+Social Signals
+As Google evolves its algorithms, social signals as a ranking factor becomes a hot topic for discussion in the search engine community.
+
+Great content that’s shared heavily on social media networking platforms tend to rank well on search engines. However it may not suggest a direct causation.
+
+I.e. If page A, which has 10,000 Facebook shares and 100 backlinks, is ranking on SERPs position #1, there is a correlation between having more backlinks as a result of a increased content visibility. And links as we know, are a major ranking factor.
+
+Spamdexing
+Spamdexing is a form of spamming search engines to manipulate a page’s rankings on the search engine results pages.
+
+Spamdexing includes but is not limited to:
+
+Displaying different content to search engines and humans
+
+Keyword spamming
+
+Creating superfluous backlinks
+
+Mass acquisition of low quality backlinks such as unmaintained web directories,
+
+Spider
+A spider or a search engine robot is a computer program that discovers web pages/documents and process their contents for search engine indexing and sorting purposes.
+
+Splash Page
+A splash page is a webpage a visitor first sees upon visiting a website, and allows the visitor to select an option to continue further into the site. For example, choosing a country/region or language to view the site in, or displaying an advertisement or “quote of the day” for a set amount of time before allowing the visitor to click into the site.
+
+Splash pages are usually thin with content and not keyword-optimised, thus making it bad for SEO.
+
+Splog
+A Splog is a shortened term for a Spam Blog (Spam + Blog = Splog). It is a blog created for spammy purposes such as:
+
+Stealing authority content from reputable websites and placing ads on them to earn ad revenue
+
+Used to create superflous backlinks to targeted websites (a form of spammy link building)
+
+Spinning stolen high quality content to make it look unique to search engines in hopes of ranking for specific keywords
+
+Static Page / Static URL
+A static page delivers content to visitors exactly as per developed. The URL does not change as well.
+
+A dynamic page on the other hand, shows content that may change from time to time. A page displaying the latest blogposts (blogroll) is an example of a dynamic page, whereas an About Us page that doesn’t automatically change its contents would be an example of a static page.
+
+Structured Data Markup
+Structured data markup is a text-based organisation of data that is used to increase the visibility of pages in the search result snippets. This is done by using JSON-LD and Microdata to create various markup data types such as critic reviews, recipes, and online courses.
+
+Once the markup is done, it may be tested for validity on Google via the Structured Data Testing Tool.
+
+Subdomain
+A subdomain is another part of a website. It takes the following form subdomain.maindomain.com.
+
+Subheading
+The subheading is a heading given to a subsection of a page. It should include your target keywords when possible.
+
+Sub Navigation Menu
+The sub navigation menu are the links that take the user to another section of a website when clicked on. It is a best practice to keyword-optimise (do not over optimise!) the sub navigation anchor text links.
+
+Supplementary Content (SC)
+The supplementary content as mentioned repeatedly in Google’s Quality Rater’s Guidelines refers to content that supports the overall content of a page in providing a good user experience.
+
+For example, the main content of a currency converter tool page would be tool itself, and supplementary content would be the latest foreign currency exchange trends and updates.
+
+Supplemental Results
+Supplemental results are URLs that are considered less important and are placed in Google’s supplemental index (a secondary database).
+
+Pages in the supplemental index don’t rank well and it may be time to run a few checks on things such as:
+
+Page Authority. Are you getting enough backlinks?
+
+Duplicate content. Is your copy very similar or partially similar to another existing article?
+
+Internal linking. Are enough internal pages on your linking to the affected page?
+
+------------------------------------------
+
+T
+Target Keywords
+The keywords or search terms you intend to optimise your website and webpages to rank well on the the search engines results pages.
+
+Term Frequency
+The term frequency refers to the number of times a term is repeated on a document. It is a metric (as part of a weighting system) that is used by search engines for page ranking purposes.
+
+
+
+Title / Page Title
+The title of a page is generally visible near the top of the page, and is usually surrounded by the <h1> tag. It is a best practice to include your target keywords in the page title.
+
+Title Tag
+The title tag <title>Page Title Goes Here</title> is used by browsers to display at the top of a browsing tab and is also often used by search engines to display on the search engine results snippets.
+
+Top Heavy
+A Google search engine algorithm used to filter or downgrade webpages that place too many ads above the fold of the page.
+
+Top-Level Domain (TLD)
+The top level domain is appended after the domain name e.g. www.example.com, where example is the domain name and .com is the top level domain.
+
+It is recommended to get a .com domain if you plan to target an international search audience, as .com domains can rank better across Google Search’s international domains (e.g. www.google.com.sg). On the other hand if you decide to target only one country or region, you may get a ccTLD (e.g. www.example.sg).
+
+Touch Element
+A touch element refers to a button or link on a mobile device. It is one of the signals used in Google’s Mobile ranking factors.
+
+Touch elements should not be sufficiently large in size and not too close to another touch element, otherwise users may accidentally touch unintended elements.
+
+Trackback
+A trackback is a notification sent automatically by one website (website A) to another website that it (website A) has linked to.
+
+This is a great technique for relationship building among bloggers from similar niches and can encourage reciprocal linking as well.
+
+Trust Flow
+Trust Flow is a metric created and trademarked by Majestic. It is a quality score assigned to webpages on a scale of 0-100, and is calculated by analysing a site’s backlinks from trusted third party websites.
+
+TrustRank
+A metric for determining the trustworthiness of a link, described.
+------------------------------------------
+
+U
+Uniform Resource Locator (URL)
+The Uniform Resource Locator or URL is commonly referred to as the website address and is used to locate and access webpages (HTML, Javascript, FLASH), documents/files (PDFs, video, images) on the World Wide Web.
+
+It is recommended to include your target keywords in your URL to better your search engine rankings.
+
+Unnatural Link
+Used to describe links that are obtained or created unnaturally for the purposes of manipulating a website’s search engine rankings.
+
+If this sort of spammy link building tactic is detected by Google or Bing, it may result in a manual investigation and demotion of the site in question.
+
+URL Parameters
+URL parameters, also known as query strings, are dynamic URLs and are appended to the back of the Uniform Resource Locator after the ? symbol (e.g. www.example.com/page?sourceid=123&sessionid=2).
+
+Google recommends not to rewrite your dynamic URLs into static URLs unless you only intend to remove unnecessary parameters, as this can cause Google to misinterpret the information and cause indexation problems.
+
+User Experience (UX)
+User experience (UX) is a person’s overall experience when interacting with your website or webpage. Reader-friendly fonts, alluring images, great copy, and appropriate call-to-actions all play a role in delivering a satisfying user experience.
+
+Search engines were built to serve users searching for useful information pertaining to their search queries. Google, Bing, and other major search engines constantly update their algorithms to serve that purpose – delivering useful, authoritative, and trustworthy content (content that provides a satisfying user experience).
+
+------------------------------------------
+
+V
+Video Optimisation
+The process of optimising a video for search engine rankings. It includes:
+
+Placing target keywords into video file name, title text, description, tags.
+
+Getting quality viewership (e.g. majority of viewers watched the entire video)
+
+High average user rating (e.g. a substantial number of video likes on Youtube)
+
+Viral Content
+Viral content or contagious content refers to content (infographics, blogposts, controversial articles, memes) that spreads on the web (social media networks, community blogs, forums, news/PR sites) like wildfire.
+
+Great outcome for brand awareness, link building, and social media marketing campaigns.
+------------------------------------------
+
+W
+White Hat SEO
+White Hat SEO refers to the act of optimising a website for search engine rankings while abiding by search engine guidelines such as Google Webmaster Guidelines and Bing Webmaster Guidelines.
+------------------------------------------------------------------------------------
+
+X
+XHTML
+XHTML stands for Extensible Hypertext Markup Language and is quite similar to HTML, the basic language for constructing web pages on the World Wide Web.
+
+XHTML is part of the XML family and, like HTML, it is also easily understandable by search engines.
+
+XML Sitemap
+A sitemap is sort of like a directory of all the pages, images, and files existing within your website. Think of a shopping mall directory, where you have all the shop unit numbers in one list.
+
+An XML sitemap is a type of sitemap that contains metadata about each URL and is added to the root directory of a website and submitted to search engines (e.g. submit an XML sitemap to Google Search Console) where it will be crawled and processed by search engines.
+
+This sends important signals to search engines such as the organisation of your site content and the importance of each page.
+------------------------------------------------------------------------------------
+
+Z
+Zero Moment of Truth (ZMOT)
+The Zero Moment of Truth represents how consumers shop and make purchase decisions throughout the customer buying journey in this day and age.
+
+How is this related to search? There are over a 100 billion searches on Google each month, and a handful of them are searching for product-related information prior to purchasing from a brand (e.g. third party customer reviews). Google calls this the Zero Moment of Truth or ZMOT.

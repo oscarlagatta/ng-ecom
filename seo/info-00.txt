@@ -85,3 +85,123 @@ https://www.schemaapp.com/tools/jsonld-schema-generator/
 
 
 
+
+Anchor text
+
+Backlinks (contextual links / sideway links )
+
+  backlinks different sources  ( blog, company site, directory guest post, comment social media, wiki, social bookmark, press release, there's a Ton )
+
+Keywords
+  keywords research; is a critical component for search engine optimization because when used correctly it provides a road map for both the desing and execution of bujilding websites and developing content. Keywords are usually broken up and grouped based on the numer of words within the query phrases
+
+  Keywords Everywhere (plugin)
+
+  keyword planner
+
+  Keywords Research, Monthly search volumes ( keyword planner )
+  LSI (Latent Symantic Index),  (LSI Graph) helps us to find more keywords in a more proper manner; so we can have several keywords to be run
+      primary and secondary (added to have broader focus)
+  Keywords,
+
+   Keywords stuffing; refers to the practice of loading a webpage with keywords or numbers in an attempt to manipulate a site's ranking in google search results (penalty by google)
+
+   Keyword difficulty is a handy metric which helps you understand how hard it will be to rank for any search query, describe how diff is to run that sepcific keyword
+      (SEOQuake)  which will change the google results which in clude a bottom bar on every page
+
+SERP
+  Search engine result page.
+
+Organic seo vs Local seo
+
+Different Algorithm  for each Maps Ranking, 3 pack, Google my business (GMB), Citations via NAP (Name, Address Phone)
+  Local seo depends on (google my business and all directories sites), It's important to keeep your local seo updated (YELLOW PAGES,)
+
+Monthly search volumes (using keyword planner)
+
+Meta tags and attributes (title , description , No-index, H1 H2 H3, image optimization, canonical tag)
+
+URL Slug (is the exact address of a specific page or post on your site)
+  sitename.com/buy-drones
+  https://oscarlagatta.com/ng
+
+Brand Mention
+
+Algorithm Updates
+  (https://moz.com/google-algorithm-change)
+
+
+Google search parameters
+  insite:
+
+  inurl:
+
+  allintitle:
+
+  site:nike.com + running
+
+  SEO tools
+  ---------
+
+   Rank Trackers, link submitters, keyword researchers,
+
+   AHrefs, Makestic, Moz, SEcockpit, SERPworx,
+
+   KeywordResearcherPro,
+
+   WP Plugin - SEO Yoast, Scrapebox,
+
+   Search Console (WMT)
+
+   Google Analytics, Google Trends
+
+  SEO Tools Metrics
+    TF - CF = Majestic (citation flow)
+    DR - UR = AHrefs
+    PA - DA = Moz (page authority domain authority ) - trust they've built  (CHECKDAPA tool)
+    Page Rank - google
+
+CTR
+
+is a performance metric expressed in percentages that measures the amount of times an ad or email is clicked versus the amount of times it's been viewed. It is most commonly used to measure the effectivenes of paid search, display and email marketing campaigns and can indicate the performance of ad
+
+Page Speed (google will show only with good page speed )
+
+.htaccess (hypertext access and is a configuration file used by Apached-based web servers that controls the directory that it "lives" in-- as well as all the subdirectories underneath that directory. Also helps to create Custom Error Pages for better SEO)
+
+ROBOTS FILE, the robots exclusion standard, als known as the robots exclusion protocol or simply robots.txt, is a standard used by websdites to communicate with web crawlers and other web robots.
+
+sitemap
+
+Sitemap.xml is an XML file that is full of your individual webpages' URLs, it's like an acrhive of every webpage in your website. This file should be easily discoverable in the site in order for search engine crawlers to stumble upon it.
+
+schema markup
+  /rich snippets
+  /knowledge graph
+
+PBN (Private blog networks)
+  private blog networks are the go-to link building tactic SEOs.
+
+
+Technical SEO
+  Refers to the process of optimizing the website for the crawling and indexing phase.
+
+PPC (PAY PER CLICK), CPC (COST PER CLICK)
+
+
+
+search engine guidelines
+  (google) https://support.google.com/webmasters/answer/7451184?hl=en
+  (yahoo) https://help.yahoo.com/kb/SLN2248.html?guccounter=1
+  (bing) https://help.yahoo.com/kb/SLN2248.html?guccounter=1
+
+
+Types of SEO
+  on-page seo (is the practice of optimizing individual web pages in order ro rank highter and earn more relevant traffic in search engines)
+  off-page seo (refers to techniques that can be used to imporove the position of the web site in the search engine results, many  people associate off-page SEO with link building but it is not only that. In general, off page SEO has to do with promotions methods - beyond website desing - for the purpose of ranking a website higher in the serach result)
+
+  organic search vs paid search (ADWOrDS)
+
+  white hat vs black hat seo
+
+

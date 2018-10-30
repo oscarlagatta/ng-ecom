@@ -22,6 +22,12 @@
     },
     "shared-auth": {
       "tags": []
+    },
+    "products-portal": {
+      "tags": []
+    },
+    "products-portal-e2e": {
+      "tags": []
     }
   }
 }
