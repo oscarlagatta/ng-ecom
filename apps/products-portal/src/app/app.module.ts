@@ -3,19 +3,25 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Route, Routes } from '@angular/router';
 import { fromEventPattern } from 'rxjs';
 import { BrandService } from './services/brands.service';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { BrandResolverService } from './services/brand-resolver.service';
+
+const routes: Routes = [
+   { path: 'dashboard', component: DashboardComponent, resolve: { resolvedBrands: BrandResolverService}}
+]
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DashboardComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
     NxModule.forRoot(),
-    RouterModule.forRoot([], { initialNavigation: 'enabled' })
+    RouterModule.forRoot(routes, { initialNavigation: 'enabled' })
   ],
-  providers: [BrandService],
+  providers: [BrandService, BrandResolverService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

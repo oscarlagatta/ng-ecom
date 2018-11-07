@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BrandService } from './services/brands.service';
 import { Brand } from './domain/brand';
+import { BrandError } from './domain/brand-error';
 
 @Component({
   selector: 'ecom-workspace-root',
@@ -19,7 +20,7 @@ export class AppComponent implements OnInit {
     this.brandService.getAllBrands()
       .subscribe(
         (data: Brand[]) => this.allBrands = data ,
-        (err) => console.log(err),
+        (err: BrandError) => console.log(err.friendlyMessage),
         () => console.log('all done getting the brands from the server')
       )
 
