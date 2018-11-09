@@ -5,6 +5,7 @@ import { Brand } from '../domain/brand';
 import { createOfflineCompileUrlResolver } from '@angular/compiler';
 import { catchError } from 'rxjs/operators';
 import { BrandError } from '../domain/brand-error';
+import { environment } from '../../environments/environment';
 
 @Injectable()
 export class BrandService {
@@ -13,7 +14,7 @@ export class BrandService {
 
   getAllBrands(): Observable<Brand[] | BrandError> {
     console.log(`getting all the brands from the server`);
-    return this.httpClient.get<Brand[]>('https://localhost:5001/api/brand')
+    return this.httpClient.get<Brand[]>(`${environment.apiUrl}/brand`)
       .pipe(
         catchError(err => this.handleHttpError(err))
       );
@@ -33,13 +34,13 @@ export class BrandService {
       'Accept': 'application/json',
       'Authorization': 'my-token'
     });
-    return this.httpClient.get<Brand>(`https://localhost:5001/api/brand/${id}`, {
+    return this.httpClient.get<Brand>(`${environment.apiUrl}/brand/${id}`, {
       headers: getHeaders
     });
   }
 
   addBrand(newBrand: Brand) : Observable<Brand> {
-      return this.httpClient.post<Brand>(`https://localhost:5001/api/brand`, newBrand, {
+      return this.httpClient.post<Brand>(`${environment.apiUrl}/brand`, newBrand, {
         headers: new HttpHeaders({
           'Content-Type': 'application/json'
         })
@@ -47,7 +48,7 @@ export class BrandService {
   }
 
   updateBrand(updatedBrand: Brand): Observable<void>  {
-    return this.httpClient.put<void>(`https://localhost:5001/api/brand/${updatedBrand.brandId}`, this.updateBrand,
+    return this.httpClient.put<void>(`${environment.apiUrl}/brand/${updatedBrand.brandId}`, this.updateBrand,
       {
         headers: new HttpHeaders({
           'Content-Type': 'application/json'
