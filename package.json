@@ -5,7 +5,7 @@
   "scripts": {
     "serve:customer-portal": "ng s customer-portal --port 4201",
     "serve:admin-portal": "ng s admin-portal --port 4202",
-    "serve:products-portal": "ng s products-portal --port 4203",
+    "serve:products-portal-ssl": "ng s products-portal --ssl true -o --ssl-key privatekey.key --ssl-cert certificate.pem --port 4203",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

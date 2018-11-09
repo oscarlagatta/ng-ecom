@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://localhost:5001/api',
+  apiUrl: 'https://localhost:44306/api',
   // openIdConnectSettings: {
   //   authority: 'https://localhost:44398/',
   //   client_id: 'productsportalclient',
