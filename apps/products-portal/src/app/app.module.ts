@@ -8,6 +8,7 @@ import { fromEventPattern } from 'rxjs';
 import { BrandService } from './services/brands.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BrandResolverService } from './services/brand-resolver.service';
+import { OpenIdConnectService } from './domain/open-id-connect';
 
 const routes: Routes = [
    { path: 'dashboard', component: DashboardComponent, resolve: { resolvedBrands: BrandResolverService}}
