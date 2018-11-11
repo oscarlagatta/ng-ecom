@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule} from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
 import { RouterModule, Route, Routes } from '@angular/router';
@@ -9,10 +9,18 @@ import { BrandService } from './services/brands.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BrandResolverService } from './services/brand-resolver.service';
 import { OpenIdConnectService } from './domain/open-id-connect';
+import { AddRequestHeaderInterceptor } from './services/add-header.interceptor';
+import { LogResponseInterceptor } from './services/log-response.interceptor';
+import { CacheInterceptor } from './services/cache.interceptor';
+import { HttpCacheService } from './services/http-cache.service';
 
 const routes: Routes = [
-   { path: 'dashboard', component: DashboardComponent, resolve: { resolvedBrands: BrandResolverService}}
-]
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+    resolve: { resolvedBrands: BrandResolverService }
+  }
+];
 
 @NgModule({
   declarations: [AppComponent, DashboardComponent],
@@ -22,11 +30,29 @@ const routes: Routes = [
     NxModule.forRoot(),
     RouterModule.forRoot(routes, { initialNavigation: 'enabled' })
   ],
-  providers: [BrandService, BrandResolverService],
+  providers: [
+    BrandService,
+    BrandResolverService,
+    HttpCacheService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AddRequestHeaderInterceptor,
+      multi: true
+    },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: LogResponseInterceptor,
+      multi: true
+    },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: CacheInterceptor,
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
-
 
 // GET POST PUT DELETE
 // 201 200 204
