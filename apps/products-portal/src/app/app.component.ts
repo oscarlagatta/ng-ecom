@@ -1,7 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Directive,
+  Input,
+  HostListener
+} from '@angular/core';
 import { BrandService } from './services/brands.service';
 import { Brand } from './domain/brand';
 import { BrandError } from './domain/brand-error';
+
+@Directive({
+  selector: '[track]'
+})
+export class TrackDirective {
+  @Input() track;
+
+  @HostListener('click')
+  onclick() {
+    console.log(this.track);
+  }
+}
 
 @Component({
   selector: 'ecom-workspace-root',
@@ -15,37 +33,38 @@ export class AppComponent implements OnInit {
   selectedBrand: Brand;
   constructor(private brandService: BrandService) {}
 
-
   ngOnInit() {
-    this.brandService.getAllBrands()
+    this.brandService
+      .getAllBrands()
       .subscribe(
-        (data: Brand[]) => this.allBrands = data ,
+        (data: Brand[]) => (this.allBrands = data),
         (err: BrandError) => console.log(err.friendlyMessage),
         () => console.log('all done getting the brands from the server')
-      )
+      );
 
-      this.brandService.getBrandById(1)
+    this.brandService
+      .getBrandById(1)
       .subscribe(
-        (data: Brand) => this.selectedBrand = data ,
-        (err) => console.log(err),
+        (data: Brand) => (this.selectedBrand = data),
+        err => console.log(err),
         () => console.log('all done getting the brands from the server')
-      )
+      );
   }
 
   addBrand() {
-      const newBrand : Brand = {
-          brandName: 'New Brand',
-          isVisible: true,
-          isSuppressed: false
-      }
+    const newBrand: Brand = {
+      brandName: 'New Brand',
+      isVisible: true,
+      isSuppressed: false
+    };
 
-      console.log('new brand', newBrand);
+    console.log('new brand', newBrand);
 
-      this.brandService.addBrand(newBrand)
-        .subscribe(
-            (data: Brand) => console.log('added new brand', data),
-            (err) => console.log(err)
-        )
+    this.brandService
+      .addBrand(newBrand)
+      .subscribe(
+        (data: Brand) => console.log('added new brand', data),
+        err => console.log(err)
+      );
   }
-
 }

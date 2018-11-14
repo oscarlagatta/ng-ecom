@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BrandService } from '../../services/brands.service';
 import { ActivatedRoute } from '@angular/router';
 import { Brand } from '../../domain/brand';
@@ -10,20 +10,21 @@ import { BrandError } from '../../domain/brand-error';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  @Input() brandId: number;
 
-  allBrands: Brand[] ;
+  allBrands: Brand[];
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-     const resolvedData: Brand[] | BrandError =this.route.snapshot.data['resolvedBrands'];
+    const resolvedData: Brand[] | BrandError = this.route.snapshot.data[
+      'resolvedBrands'
+    ];
 
-     if (resolvedData instanceof BrandError) {
-       console.log(`dashboard compoenent error`);
-     } else
-      {
-        this.allBrands = resolvedData;
-      }
+    if (resolvedData instanceof BrandError) {
+      console.log(`dashboard compoenent error`);
+    } else {
+      this.allBrands = resolvedData;
+    }
   }
-
 }

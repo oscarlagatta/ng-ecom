@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AppComponent } from './app.component';
+import { AppComponent, TrackDirective } from './app.component';
 import { NxModule } from '@nrwl/nx';
 import { RouterModule, Route, Routes } from '@angular/router';
 import { fromEventPattern } from 'rxjs';
@@ -13,6 +13,8 @@ import { AddRequestHeaderInterceptor } from './services/add-header.interceptor';
 import { LogResponseInterceptor } from './services/log-response.interceptor';
 import { CacheInterceptor } from './services/cache.interceptor';
 import { HttpCacheService } from './services/http-cache.service';
+import { InputDecoratorWidgetComponent } from './components/input-decorator-widget/input-decorator-widget.component';
+import { BrandComponent } from './components/input-decorator-widget/brand/brand.component';
 
 const routes: Routes = [
   {
@@ -23,7 +25,13 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent],
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    TrackDirective,
+    InputDecoratorWidgetComponent,
+    BrandComponent
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
