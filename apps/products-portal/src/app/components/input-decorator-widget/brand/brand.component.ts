@@ -9,19 +9,33 @@ import { Observable } from 'rxjs';
   styleUrls: ['./brand.component.scss']
 })
 export class BrandComponent implements OnInit {
-  currentBrand: Brand;
+  currentBrand_: Brand;
 
   // getters and setters
   @Input()
   set brandId(id) {
-    if (!this.currentBrand || this.currentBrand.brandId !== id) {
-      this.PopulateDisplayBrand(id).subscribe(b => (this.currentBrand = b));
+    if (!this.currentBrand_ || this.currentBrand_.brandId !== id) {
+      this.PopulateDisplayBrand(id).subscribe(b => (this.currentBrand_ = b));
     }
   }
 
   constructor(private brandService: BrandService) {}
 
   ngOnInit() {}
+
+  get brandId(): number {
+    return this.currentBrand_ ? this.currentBrand_.brandId : 0;
+  }
+
+  set currentBrand(b: Brand) {
+    if (b) {
+      this.currentBrand_ = b;
+    }
+  }
+
+  get currentBrand(): Brand {
+    return this.currentBrand_;
+  }
 
   private PopulateDisplayBrand(brandId): Observable<Brand> {
     return this.brandService.getBrandById(brandId);
