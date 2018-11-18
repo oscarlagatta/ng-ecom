@@ -15,6 +15,10 @@ import { CacheInterceptor } from './services/cache.interceptor';
 import { HttpCacheService } from './services/http-cache.service';
 import { InputDecoratorWidgetComponent } from './components/input-decorator-widget/input-decorator-widget.component';
 import { BrandComponent } from './components/input-decorator-widget/brand/brand.component';
+import { OutputDecoratorComponent } from './components/output-decorator/output-decorator.component';
+import { HelpBannerComponent } from './components/output-decorator/help-banner/help-banner.component';
+import { QueryDecoratorComponent } from './components/query-decorator/query-decorator.component';
+import { ToggleViewContentComponent } from './components/query-decorator/toggle-view-content/toggle-view-content.component';
 
 const routes: Routes = [
   {
@@ -30,7 +34,11 @@ const routes: Routes = [
     DashboardComponent,
     TrackDirective,
     InputDecoratorWidgetComponent,
-    BrandComponent
+    BrandComponent,
+    OutputDecoratorComponent,
+    HelpBannerComponent,
+    QueryDecoratorComponent,
+    ToggleViewContentComponent
   ],
   imports: [
     BrowserModule,

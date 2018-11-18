@@ -1,4 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  Input,
+  ChangeDetectionStrategy
+} from '@angular/core';
 import { BrandService } from '../../services/brands.service';
 import { ActivatedRoute } from '@angular/router';
 import { Brand } from '../../domain/brand';
