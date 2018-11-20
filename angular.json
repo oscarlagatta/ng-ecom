@@ -42,8 +42,10 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/customer-portal/src/environments/environment.ts",
-                  "with": "apps/customer-portal/src/environments/environment.prod.ts"
+                  "replace":
+                    "apps/customer-portal/src/environments/environment.ts",
+                  "with":
+                    "apps/customer-portal/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -106,9 +108,7 @@
               "apps/customer-portal/tsconfig.app.json",
               "apps/customer-portal/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -133,9 +133,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/customer-portal-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -163,17 +161,17 @@
               "apps/admin-portal/src/favicon.ico",
               "apps/admin-portal/src/assets"
             ],
-            "styles": [
-              "apps/admin-portal/src/styles.scss"
-            ],
+            "styles": ["apps/admin-portal/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/admin-portal/src/environments/environment.ts",
-                  "with": "apps/admin-portal/src/environments/environment.prod.ts"
+                  "replace":
+                    "apps/admin-portal/src/environments/environment.ts",
+                  "with":
+                    "apps/admin-portal/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -212,9 +210,7 @@
             "polyfills": "apps/admin-portal/src/polyfills.ts",
             "tsConfig": "apps/admin-portal/tsconfig.spec.json",
             "karmaConfig": "apps/admin-portal/karma.conf.js",
-            "styles": [
-              "apps/admin-portal/src/styles.scss"
-            ],
+            "styles": ["apps/admin-portal/src/styles.scss"],
             "scripts": [],
             "assets": [
               "apps/admin-portal/src/favicon.ico",
@@ -229,9 +225,7 @@
               "apps/admin-portal/tsconfig.app.json",
               "apps/admin-portal/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -256,9 +250,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/admin-portal-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -284,9 +276,7 @@
               "libs/shared/auth/tsconfig.lib.json",
               "libs/shared/auth/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -315,16 +305,28 @@
               "apps/products-portal/src/assets"
             ],
             "styles": [
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/quill/dist/quill.core.css",
+              "node_modules/quill/dist/quill.snow.css",
               "apps/products-portal/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/quill/dist/quill.js"
+            ]
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/products-portal/src/environments/environment.ts",
-                  "with": "apps/products-portal/src/environments/environment.prod.ts"
+                  "replace":
+                    "apps/products-portal/src/environments/environment.ts",
+                  "with":
+                    "apps/products-portal/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -351,8 +353,8 @@
           "options": {
             "browserTarget": "products-portal:build",
             "ssl": true,
-            "sslCert":"certificate.pem",
-            "sslKey":"privatekey.key"
+            "sslCert": "certificate.pem",
+            "sslKey": "privatekey.key"
           },
           "configurations": {
             "production": {
@@ -374,9 +376,18 @@
             "tsConfig": "apps/products-portal/tsconfig.spec.json",
             "karmaConfig": "apps/products-portal/karma.conf.js",
             "styles": [
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/themes/bootstrap/theme.css",
+              "node_modules/quill/dist/quill.core.css",
+              "node_modules/quill/dist/quill.snow.css",
               "apps/products-portal/src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/quill/dist/quill.js"
+            ],
             "assets": [
               "apps/products-portal/src/favicon.ico",
               "apps/products-portal/src/assets"
@@ -390,9 +401,7 @@
               "apps/products-portal/tsconfig.app.json",
               "apps/products-portal/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -418,9 +427,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/products-portal-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }

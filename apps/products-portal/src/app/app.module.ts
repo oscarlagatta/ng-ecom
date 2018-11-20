@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent, TrackDirective } from './app.component';
@@ -19,6 +20,9 @@ import { OutputDecoratorComponent } from './components/output-decorator/output-d
 import { HelpBannerComponent } from './components/output-decorator/help-banner/help-banner.component';
 import { QueryDecoratorComponent } from './components/query-decorator/query-decorator.component';
 import { ToggleViewContentComponent } from './components/query-decorator/toggle-view-content/toggle-view-content.component';
+import { MenuModule, PanelModule, ChartModule } from 'primeng/primeng';
+import { SettingsComponent } from './components/settings/settings.component';
+import { StatisticComponent } from './components/statistic/statistic.component';
 
 const routes: Routes = [
   {
@@ -38,11 +42,17 @@ const routes: Routes = [
     OutputDecoratorComponent,
     HelpBannerComponent,
     QueryDecoratorComponent,
-    ToggleViewContentComponent
+    ToggleViewContentComponent,
+    SettingsComponent,
+    StatisticComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
+    PanelModule,
+    MenuModule,
+    ChartModule,
     NxModule.forRoot(),
     RouterModule.forRoot(routes, { initialNavigation: 'enabled' })
   ],

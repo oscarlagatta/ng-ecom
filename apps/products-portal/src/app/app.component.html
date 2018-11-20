@@ -1,35 +1,45 @@
-<div style="text-align:center">
-  <h1>Welcome to {{ title }}!</h1>
+<!--
+  <div style="text-align:center">
+    <h1>Welcome to {{ title }}!</h1>
+  </div>
 
-  <img
-    width="300"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png"
-  />
+  <div><a [routerLink]="['/dashboard']">Dashboard</a></div>
+
+  <router-outlet></router-outlet>
+
+  <button (click)="addBrand()">Add New Brand</button>
+
+  <button [track]="'One Button'">One</button>
+  <button [track]="'Two Button'">Two</button>
+  <button [track]="'Three Button'">Three</button>
+-->
+
+<div class="ui-g ui-g-nopad" id="header">
+  <div class="ui-g-10">
+    <img src="assets/img/ecommerce-svgrepo-com.svg" id="top-logo" />
+  </div>
+  <div class="ui-g-2" id="notifications"></div>
 </div>
 
-<h2>This is an Angular CLI app built with Nrwl Nx!</h2>
+<div class="ui-g ui-g-nopad">
+  <div class="ui-g-2 ui-g-nopad" id="sidegutter">
+    <div id="sidenav"><p-menu #bigMenu [model]="menuItems"></p-menu></div>
+  </div>
 
-An open source toolkit for enterprise Angular applications. Nx is designed to
-help you create and build enterprise grade Angular applications. It provides an
-opinionated approach to application project structure and patterns.
+  <div class="ui-g-2 ui-g-nopad" id="minigutter">
+    <div id="sidenav-mini">
+      <p-menu #smallMenu [model]="miniMenuItems"></p-menu>
+    </div>
+  </div>
 
-<h2>Quick Start & Documentation</h2>
+  <!--
+    <div class="ui black big launch right attached fixed button">
+      <i class="content icon"></i>
+      <span class="text">Menu</span>
+    </div>
+  -->
 
-<a href="https://nrwl.io/nx"
-  >Watch a 5-minute video on how to get started with Nx.</a
->
-
-<div>
-  <a [routerLink]="['/dashboard']">Dashboard</a>
-  <a [routerLink]="['/season']">Season</a>
+  <div id="content-body" class="ui-g-10 ui-g-nopad">
+    <router-outlet></router-outlet>
+  </div>
 </div>
-
-<router-outlet></router-outlet>
-
-<button (click)="addBrand()">Add New Brand</button>
-
-<div><a [routerLink]="['/dashboard']">Dashboard</a></div>
-
-<button [track]="'One Button'">One</button>
-<button [track]="'Two Button'">Two</button>
-<button [track]="'Three Button'">Three</button>

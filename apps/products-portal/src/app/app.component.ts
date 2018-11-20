@@ -8,6 +8,10 @@ import {
 import { BrandService } from './services/brands.service';
 import { Brand } from './domain/brand';
 import { BrandError } from './domain/brand-error';
+import { MenuItem } from 'primeng/primeng';
+import { ActivatedRoute, Router } from '@angular/router';
+
+declare var jQuery: any;
 
 @Directive({
   selector: '[track]'
@@ -29,11 +33,62 @@ export class TrackDirective {
 export class AppComponent implements OnInit {
   title = 'products-portal';
 
+  menuItems: MenuItem[];
+
   allBrands: Brand[];
   selectedBrand: Brand;
-  constructor(private brandService: BrandService) {}
+
+  constructor(private brandService: BrandService, private router: Router) {}
 
   ngOnInit() {
+    let handleSelected = function(event) {
+      let allMenus = jQuery(event.originalEvent.target).closest('ul');
+      let allLinks = allMenus.find('.menu-selected');
+
+      allLinks.removeClass('menu-selected');
+      let selected = jQuery(event.originalEvent.target).closest('a');
+      selected.addClass('menu-selected');
+    };
+
+    this.menuItems = [
+      {
+        label: 'Dashboard',
+        icon: 'fa fa-home',
+        routerLink: ['/dashboard'],
+        command: event => handleSelected(event)
+      },
+      {
+        label: 'Brands',
+        icon: 'fa fa-calendar',
+        routerLink: ['/brands'],
+        command: event => handleSelected(event)
+      },
+      {
+        label: 'Styles',
+        icon: 'fa fa-clock-o',
+        routerLink: ['/styles'],
+        command: event => handleSelected(event)
+      },
+      {
+        label: 'Products',
+        icon: 'fa fa-tasks',
+        routerLink: ['/products'],
+        command: event => handleSelected(event)
+      },
+      {
+        label: 'My Profile',
+        icon: 'fa fa-users',
+        routerLink: ['/profile'],
+        command: event => handleSelected(event)
+      },
+      {
+        label: 'Settings',
+        icon: 'fa fa-sliders',
+        routerLink: ['/settings'],
+        command: event => handleSelected(event)
+      }
+    ];
+
     this.brandService
       .getAllBrands()
       .subscribe(
