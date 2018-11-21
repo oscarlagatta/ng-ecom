@@ -20,15 +20,32 @@ import { OutputDecoratorComponent } from './components/output-decorator/output-d
 import { HelpBannerComponent } from './components/output-decorator/help-banner/help-banner.component';
 import { QueryDecoratorComponent } from './components/query-decorator/query-decorator.component';
 import { ToggleViewContentComponent } from './components/query-decorator/toggle-view-content/toggle-view-content.component';
-import { MenuModule, PanelModule, ChartModule } from 'primeng/primeng';
+import {
+  MenuModule,
+  PanelModule,
+  ChartModule,
+  InputTextModule,
+  ButtonModule,
+  MessageModule,
+  CheckboxModule
+} from 'primeng/primeng';
+import { PaginatorModule } from 'primeng/paginator';
+import { TableModule } from 'primeng/table';
 import { SettingsComponent } from './components/settings/settings.component';
 import { StatisticComponent } from './components/statistic/statistic.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrandsComponent } from './components/brands/brands.component';
+import { FielderrorsComponent } from './components/fielderrors/fielderrors.component';
 
 const routes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent,
     resolve: { resolvedBrands: BrandResolverService }
+  },
+  {
+    path: 'brands',
+    component: BrandsComponent
   }
 ];
 
@@ -44,15 +61,24 @@ const routes: Routes = [
     QueryDecoratorComponent,
     ToggleViewContentComponent,
     SettingsComponent,
-    StatisticComponent
+    StatisticComponent,
+    BrandsComponent,
+    FielderrorsComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    ReactiveFormsModule,
     PanelModule,
     MenuModule,
+    MessageModule,
+    ButtonModule,
+    CheckboxModule,
     ChartModule,
+    TableModule,
+    PaginatorModule,
+    InputTextModule,
     NxModule.forRoot(),
     RouterModule.forRoot(routes, { initialNavigation: 'enabled' })
   ],
