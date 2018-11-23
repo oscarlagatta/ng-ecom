@@ -307,7 +307,7 @@
             "styles": [
               "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeng/resources/themes/nova-light/theme.css",
               "node_modules/quill/dist/quill.core.css",
               "node_modules/quill/dist/quill.snow.css",
@@ -378,10 +378,9 @@
             "styles": [
               "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "node_modules/primeng/resources/primeng.css",
-              "node_modules/primeng/resources/themes/bootstrap/theme.css",
-              "node_modules/quill/dist/quill.core.css",
-              "node_modules/quill/dist/quill.snow.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
               "apps/products-portal/src/styles.scss"
             ],
             "scripts": [

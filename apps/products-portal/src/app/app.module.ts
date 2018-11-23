@@ -37,6 +37,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BrandsComponent } from './components/brands/brands.component';
 import { FielderrorsComponent } from './components/fielderrors/fielderrors.component';
 
+import { StockInventoryModule } from './stock-inventory/stock-inventory.module';
+
 const routes: Routes = [
   {
     path: 'dashboard',
@@ -79,6 +81,7 @@ const routes: Routes = [
     TableModule,
     PaginatorModule,
     InputTextModule,
+    StockInventoryModule,
     NxModule.forRoot(),
     RouterModule.forRoot(routes, { initialNavigation: 'enabled' })
   ],

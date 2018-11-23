@@ -1,0 +1,20 @@
+<div>
+  HELLO STOCK INVENTORY COMPONENT
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <ecom-workspace-stock-branch [parent]="form"> </ecom-workspace-stock-branch>
+    <ecom-workspace-stock-selector
+      [parent]="form"
+      [products]="products"
+    ></ecom-workspace-stock-selector>
+    <ecom-workspace-stock-products
+      [parent]="form"
+    ></ecom-workspace-stock-products>
+
+    <div>
+      <button type="submit" [disabled]="form.invalid">Order Stock</button>
+    </div>
+    <pre>
+      {{ form.value | json }}
+    </pre>
+  </form>
+</div>
